@@ -23,7 +23,7 @@ export default  AboutItem=(props)=> {
      <View style={{flex:1,marginTop:20}}>
 
 <Image source={require('./../Images/Group.png')}
-     style={[styles.ImageView,{justifyContent:'center',alignItems:'center',width:wp('30%'),height:wp('30%')}]} 
+     style={[styles.ImageView,{justifyContent:'center',alignItems:'center',width:wp('20%'),height:wp('15%')}]} 
      resizeMode='stretch'
     />
 
@@ -47,7 +47,7 @@ export default  AboutItem=(props)=> {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,backgroundColor:'#0ab076'
+    flex: 1,backgroundColor:'#cc3333'
   },
   ImageView:{
       justifyContent:'center',alignItems:'center',alignSelf:'center'
@@ -72,7 +72,7 @@ ViewTextInputView:{
     
 },
   textStyleLogin:{
-    textAlign:'center',color:'#0ab076',fontSize:wp('4%'),fontFamily:'Digikala'
+    textAlign:'center',color:'#cc3333',fontSize:wp('4%'),fontFamily:'Digikala'
   },
   textStyleSignUp:{
     textAlign:'center',color:'white',fontSize:wp('4%'),fontFamily:'Digikala'

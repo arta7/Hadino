@@ -64,13 +64,13 @@ const TransactionList =(props)=>{
   <ListItem.Title style={{fontSize:wp('3%'),fontFamily:'Digikala'}}>{moment(item.createDate, 'YYYY/MM/DD').locale('fa').format('YYYY/MM/DD')}</ListItem.Title>
 </ListItem.Content>
 
-<Text style={{fontFamily:'Digikala',color:'#0ab076',fontSize:wp('4%')}}>{autocomma(item.amount.toString())} تومان</Text>
+<Text style={{fontFamily:'Digikala',color:'#cc3333',fontSize:wp('4%')}}>{autocomma(item.amount.toString())} تومان</Text>
 
 <Avatar
   // rounded
   size={50}
-   icon={{name: 'arrow-circle-up',color: '#0ab076', type: 'font-awesome'}}
-   overlayContainerStyle={{backgroundColor: '#0ab076',borderRadius:40,opacity:0.5}}
+   icon={{name: 'arrow-circle-up',color: '#cc3333', type: 'font-awesome'}}
+   overlayContainerStyle={{backgroundColor: '#cc3333',borderRadius:40,opacity:0.5}}
   //  activeOpacity={0.7}
 />
 

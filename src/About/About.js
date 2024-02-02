@@ -87,7 +87,7 @@ const About =(props)=>{
    ContainerStyle={{width:100}}
   >  */}
       <ScrollView>
-      <Headers TitleScreen='درباره هادینو' ShowHeader={false}
+      <Headers TitleScreen='درباره پارک سگال' ShowHeader={false}
       navigation={props.navigation}
       drawers={drawer}
       showLinear={false}

@@ -1,6 +1,6 @@
 
 
-const  ColorRange=['#0ab076', '#12b37a', '#18b77e', '#1dba83', '#22be87', '#29c28c', '#2fc690' , '#35ca95', '#3dcf9b', '#45d4a1', '#4dd9a8', '#54deae']
+const  ColorRange=['#cc3333', '#12b37a', '#18b77e', '#1dba83', '#22be87', '#29c28c', '#2fc690' , '#35ca95', '#3dcf9b', '#45d4a1', '#4dd9a8', '#54deae']
 
 const ColorRange2=[ '#220eae', '#0030b2', '#0043b0', '#0052aa', '#005ea1', '#0069a1', '#00739e', '#007c99', '#00899c', '#009697', '#00a18b', '#0bab78']
 
@@ -80,25 +80,47 @@ const SectionList1=[
     },
     {
         id:1,
-        title: "دفتر کار",
+        title: "میز خدمت",
         icon:'work',
         type:'materialicon',
         data: []
     },
     {
         id:2,
-        title: "آکادمی",
+        title: "شتابدهنده",
         icon:'school',
         type:'materialicon',
         data: []
     },
     {
         id:3,
-        title: "باشگاه",
+        title: "تامین مالی",
+        icon:'cc-diners-club',
+        type:'font-awesome',
+        data: []
+    },
+    {
+        id:4,
+        title: "تجاری سازی",
+        icon:'cc-diners-club',
+        type:'font-awesome',
+        data: []
+    },
+    {
+        id:5,
+        title: "باشگاه سگال",
+        icon:'cc-diners-club',
+        type:'font-awesome',
+        data: []
+    },
+    {
+        id:6,
+        title: "آکادمی سگال",
         icon:'cc-diners-club',
         type:'font-awesome',
         data: []
     }
+
 ]
 
 const SectionItems =[
@@ -110,7 +132,11 @@ const SectionItems =[
 {title:'1 نمونه ',images:require('./../Images/tax.png'),selectedIndex:2,selectedItem:-1},
 {title:'2 نمونه ',images:require('./../Images/tax.png'),selectedIndex:2,selectedItem:-1},
 {title:'5 نمونه ',images:require('./../Images/tax.png'),selectedIndex:3,selectedItem:-1},
-{title:'6 نمونه ',images:require('./../Images/tax.png'),selectedIndex:3,selectedItem:-1}
+{title:'6 نمونه ',images:require('./../Images/tax.png'),selectedIndex:3,selectedItem:-1},
+{title:'5 نمونه ',images:require('./../Images/tax.png'),selectedIndex:4,selectedItem:-1},
+{title:'6 نمونه ',images:require('./../Images/tax.png'),selectedIndex:5,selectedItem:-1},
+{title:'10 نمونه ',images:require('./../Images/tax.png'),selectedIndex:6,selectedItem:-1}
+
 ]
 
 

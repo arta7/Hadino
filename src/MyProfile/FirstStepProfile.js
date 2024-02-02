@@ -180,7 +180,7 @@ const FirstStepProfile =(props)=>{
             renderItem={({item,index})=>
                 <TouchableOpacity 
                 style={{ alignSelf:"flex-start",padding:10,
-                borderRadius:10,backgroundColor:'#0ab076',margin:10}} 
+                borderRadius:10,backgroundColor:'#cc3333',margin:10}} 
                  >
                  <Text style={{fontFamily:'Digikala',textAlign:'right',color:'white',
             fontSize:wp('3%')}}>{item.title}</Text>
@@ -213,7 +213,7 @@ const FirstStepProfile =(props)=>{
             renderItem={({item,index})=>
                 <TouchableOpacity 
                 style={{ alignSelf:"flex-start",padding:10,
-                borderRadius:10,backgroundColor:'#0ab076',margin:10}} 
+                borderRadius:10,backgroundColor:'#cc3333',margin:10}} 
                  >
                  <Text style={{fontFamily:'Digikala',textAlign:'right',color:'white',
             fontSize:wp('3%')}}>{item.title}</Text>
@@ -247,7 +247,7 @@ const FirstStepProfile =(props)=>{
             renderItem={({item,index})=>
                 <TouchableOpacity 
                 style={{ alignSelf:"flex-start",padding:10,
-                borderRadius:10,backgroundColor:'#0ab076',margin:10}} 
+                borderRadius:10,backgroundColor:'#cc3333',margin:10}} 
                  >
                  <Text style={{fontFamily:'Digikala',textAlign:'right',color:'white',
             fontSize:wp('3%')}}>{item.title}</Text>
@@ -314,7 +314,7 @@ const FirstStepProfile =(props)=>{
               props.currentpage.viewPager.setPage(1)
 
             }}>
-               <Text style={{fontFamily:'Digikala',textAlign:'center',color:'#0ab076',fontSize:wp('4%')}}>ادامه</Text>
+               <Text style={{fontFamily:'Digikala',textAlign:'center',color:'#cc3333',fontSize:wp('4%')}}>ادامه</Text>
             </TouchableOpacity>
 
 

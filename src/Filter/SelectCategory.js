@@ -166,7 +166,7 @@ var [emptyData,setemptyData] = useState(false)
             
             <View style={{height:'93%',width:'38%',
             marginLeft:'2%',marginTop:'1%',borderRadius:5
-            ,overflow:'hidden',borderWidth:0.5,elevation:2,borderColor:'transparent'}} >
+            ,overflow:'hidden',borderWidth:0.5,borderColor:'gray'}} >
             <Image 
                  source={{uri:APIMaster.URL +'/'+ item.imageAddress}}
                  style={{height:'100%',width:'100%'}} 

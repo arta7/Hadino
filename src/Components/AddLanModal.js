@@ -76,7 +76,7 @@ width:wp('80%')
             }}
              style={{}}
             thumbColor= {'white'}
-            trackColor ={{ false: "#0ab076", true: "gray" }}
+            trackColor ={{ false: "#cc3333", true: "gray" }}
            /> 
            </View>
          </View>
@@ -94,7 +94,7 @@ width:wp('80%')
             }}
              style={{}}
             thumbColor= {'white'}
-            trackColor ={{ false: "#0ab076", true: "gray" }}
+            trackColor ={{ false: "#cc3333", true: "gray" }}
            /> 
            </View>
          </View>
@@ -112,7 +112,7 @@ width:wp('80%')
             }}
              style={{}}
             thumbColor= {'white'}
-            trackColor ={{ false: "#0ab076", true: "gray" }}
+            trackColor ={{ false: "#cc3333", true: "gray" }}
            /> 
            </View>
          </View>
@@ -125,7 +125,7 @@ width:wp('80%')
              
 
             }}>
-               <Text style={{fontFamily:'Digikala',textAlign:'center',color:'#0ab076',fontSize:wp('4%')}}>افزودن</Text>
+               <Text style={{fontFamily:'Digikala',textAlign:'center',color:'#cc3333',fontSize:wp('4%')}}>افزودن</Text>
             </TouchableOpacity>
 
 </View>

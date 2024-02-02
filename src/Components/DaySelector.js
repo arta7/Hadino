@@ -87,8 +87,8 @@ export default  DaySelector=(props)=> {
         <View style={[{flexDirection:'row-reverse',alignItems:'flex-end',justifyContent:'space-between',alignSelf:'center',marginBottom:10},props.ButtonStyle]}
        >
        <View style={{width:wp(27)}}>
-         <TouchableOpacity style={{borderRadius:wp(11),width:wp(22),height:wp(22),borderColor:'#0ab076',borderWidth:0.8
-            ,elevation:2,justifyContent:'center',alignItems:'center',backgroundColor:props.disableState ? '#0ab076' : 'white'}}
+         <TouchableOpacity style={{borderRadius:wp(11),width:wp(22),height:wp(22),borderColor:'#cc3333',borderWidth:0.8
+            ,elevation:2,justifyContent:'center',alignItems:'center',backgroundColor:props.disableState ? '#cc3333' : 'white'}}
             onPress={props.PressItem}
             >
             <Text style={{textAlign:'center',color:!props.disableState ?'gray':'white',fontFamily:'Digikala'}}>{props.Title}</Text>
@@ -104,7 +104,7 @@ export default  DaySelector=(props)=> {
                     maximumValue={24}
                     minimumValue={6}
                     maximumTrackTintColor="grey"
-                    minimumTrackTintColor={props.disableState ? "#0ab076" : 'grey'}
+                    minimumTrackTintColor={props.disableState ? "#cc3333" : 'grey'}
                     disabled={!props.disableState}
                     thumbTintColor={'white'}
                     step={1}

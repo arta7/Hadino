@@ -72,11 +72,6 @@ const Search =(props)=>{
 
 
 
-
-   useEffect(()=>{
-    
-   },[UpdateData])
-
    let closeDrawer=()=>{
     drawer.current._root.close()
   }
@@ -98,7 +93,7 @@ const Search =(props)=>{
       />
 
     <TouchableOpacity style={{width:wp('100%'),height:hp('7%'),flexDirection:'row'
-    ,justifyContent:'space-between',borderBottomWidth:1,backgroundColor:'#0ab076'}}
+    ,justifyContent:'space-between',borderBottomWidth:1,backgroundColor:'#cc3333'}}
     onPress={()=>{setshowModal(!showModal)}}
     >
       <View style={{width:'40%',justifyContent:'flex-start',
@@ -147,15 +142,15 @@ const Search =(props)=>{
 
            <View style={{width:wp('100%'),height:hp('10%')}}>
        <View style={{width:'80%',margin:'3%',flexDirection:'row',
-       borderWidth:1,borderColor:'#0ab076',marginHorizontal:'10%'
+       borderWidth:1,borderColor:'#cc3333',marginHorizontal:'10%'
        ,justifyContent:'space-between',borderRadius:10}}>
           <TouchableOpacity style={{width:'20%',justifyContent:'center'
-       ,alignItems:'center',borderRightWidth:1,borderRightColor:'#0ab076'}}
+       ,alignItems:'center',borderRightWidth:1,borderRightColor:'#cc3333'}}
        onPress={()=>{
 
        }}
        >
-       <Icon name='search'  color='#0ab076' size={wp('8%')} />
+       <Icon name='search'  color='#cc3333' size={wp('8%')} />
         </TouchableOpacity>
        <View style={{width:'80%'}}>
        <TextInput 
@@ -163,7 +158,7 @@ const Search =(props)=>{
           value={SearchValue}
        style={{fontFamily:'Digikala',height:'100%',width:'100%',fontSize:wp('4.5%')}}
         placeholder='جستجو...'
-        placeholderTextColor='#0ab076'
+        placeholderTextColor='#cc3333'
        />
        </View>
      

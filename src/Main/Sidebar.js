@@ -103,7 +103,7 @@ useEffect(()=>{
     avatarStyle={{resizeMode:'contain'}}
   />
       </View>
-      <View style={{width:'50%',justifyContent:'center'}}>
+      <View style={{width:'40%',justifyContent:'center'}}>
       <Text style={{color:'white',fontSize:wp(5),fontFamily:'Digikala'}}>بیژن شعبانی</Text>
       </View>
         </View>
@@ -111,13 +111,13 @@ useEffect(()=>{
 
 </View>
 
-        <View style={{flexDirection:'row-reverse',width:'90%',alignItems:'center',marginTop:'10%'}}>
+        <View style={{flexDirection:'row',width:'90%',alignItems:'center',marginTop:'10%',marginHorizontal:'5%'}}>
           <View style={{width:'45%'}}>
 
           <Text style={{color:'white',fontSize:wp(3.5),fontFamily:'Digikala'}}>کد عضویت</Text>
           </View>
       
-          <View style={{width:'30%',flexDirection:'row-reverse',alignItems:'center'}}>
+          <View style={{width:'30%',flexDirection:'row',alignItems:'center'}}>
       <Text style={{color:'white',fontSize:wp(3.5),marginLeft:'5%',fontFamily:'Digikala'}}>123313</Text>
       <TouchableOpacity>
       <Icon name='content-copy' color={'gray'} size={20}/>
@@ -125,15 +125,15 @@ useEffect(()=>{
       </View>
         </View>
 
-        <View style={{flexDirection:'row-reverse',width:'100%',alignItems:'center',marginTop:'5%'}}>
-        <View style={{width:'40%',marginRight:'10%'}}>
+        <View style={{flexDirection:'row',width:'100%',alignItems:'center',marginTop:'5%'}}>
+        <View style={{width:'40%',marginHorizontal:'5%'}}>
 
           <Text style={{color:'white',fontSize:wp(3.5),fontFamily:'Digikala'}}>وضعیت عضویت</Text>
           </View>
       
-          <View style={{width:'30%'}}>
-          <View style={{width:'100%',height:35,backgroundColor:'red',borderRadius:30,justifyContent:'center'}}>
-          <Text style={{color:'white',fontSize:wp(3.5),textAlign:'center',fontWeight:'bold',fontFamily:'Digikala'}}>تعلیق </Text>
+          <View style={{width:'20%'}}>
+          <View style={{width:'100%',height:30,backgroundColor:'red',borderRadius:20,justifyContent:'center'}}>
+          <Text style={{color:'white',fontSize:wp(2),textAlign:'center',fontWeight:'bold',fontFamily:'Digikala'}}>تعلیق </Text>
           </View>
       </View>
         </View>
@@ -281,7 +281,7 @@ useEffect(()=>{
  const styles = StyleSheet.create({
    SidbarStyle:{
      flex: 1, // maximiz
-     backgroundColor: '#0ab076'
+     backgroundColor: '#cc3333'
    },
    TextStyle: {
     //  fontFamily: Font.FontSansR, 

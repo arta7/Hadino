@@ -103,7 +103,7 @@ const Guid =(props)=>{
        </View>
        :
        <View style={{flex:1,justifyContent:'center',alignItems:'center',alignSelf:'center'}}>
-          <DotIndicator color='#ef7145' size={13} count={4} />
+          <DotIndicator color='#cc3333' size={13} count={4} />
        </View>
 }
 

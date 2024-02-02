@@ -26,7 +26,7 @@ const Headers =(props)=>{
         
  <LinearGradient colors={ColorRange} style={{height:('100%')}}>
 
-        <View style={styles.TopScreenStyle}>
+        <View style={{flexDirection:props.showRightIcon ? 'row' : 'row-reverse',justifyContent:'space-between',height:'40%',width:wp('100%')}}>
           {props.showRightIcon ? 
          <TouchableOpacity style={{margin:5}}
          // onPress={()=>{ props.navigation.push('Search')}}
@@ -54,14 +54,14 @@ onPress={()=>{props.navigation.goBack()}}
 }
         </View>
 <View style={styles.TitleScreenStyle}>
-  <Text style={{fontFamily:'Yekan',color:'#B00A44',fontSize:wp('5%'),fontWeight:'bold'}}>{props.TitleScreen}</Text>
+  <Text style={{fontFamily:'Digikala',color:'#B00A44',fontSize:wp('5%'),fontWeight:'bold'}}>{props.TitleScreen}</Text>
   </View>
   </LinearGradient>
   </View>
   
 :
 <View style={{height:hp('12%'),backgroundColor:'white',overflow:'hidden'}}>
-<View style={styles.TopScreenStyle}>
+<View style={{ flexDirection:props.showRightIcon ? 'row' : 'row-reverse',justifyContent:'space-between',height:'40%',width:wp('100%')}}>
 {props.showRightIcon  ? 
          <TouchableOpacity style={{margin:5}}
          // onPress={()=>{ props.navigation.push('Search')}}
@@ -104,7 +104,7 @@ const  styles= StyleSheet.create({
       
   },
   TitleScreenStyle:{
-    height:'60%',width:wp('100%'),paddingRight:20
+    height:'60%',width:wp('100%'),paddingHorizontal:20
   }
 })
 export default Headers;

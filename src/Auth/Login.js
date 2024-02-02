@@ -137,7 +137,7 @@ const Login =(props)=>{
      style={[styles.ImageView,{position:'absolute'}]} 
     />
      <Image source={require('./../Images/Group.png')}
-     style={[styles.ImageView,{position:'absolute',width:wp('20%'),height:wp('20%')}]} 
+     style={[styles.ImageView,{position:'absolute',width:wp('20%'),height:wp('15%')}]} 
      resizeMode='stretch'
     />
      </View>
@@ -206,7 +206,7 @@ const Login =(props)=>{
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,backgroundColor:'#0ab076'
+    flex: 1,backgroundColor:'#cc3333'
   },
   ImageView:{
       justifyContent:'center',alignItems:'center',alignSelf:'center'
@@ -231,7 +231,7 @@ ViewTextInputView:{
     
 },
   textStyleLogin:{
-    textAlign:'center',color:'#0ab076',fontSize:wp('4%'),fontFamily:'Digikala'
+    textAlign:'center',color:'#cc3333',fontSize:wp('4%'),fontFamily:'Digikala'
   },
   textStyleSignUp:{
     textAlign:'center',color:'white',fontSize:wp('4%'),fontFamily:'Digikala'

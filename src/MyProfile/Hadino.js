@@ -81,7 +81,7 @@ useEffect(()=>{
       <View>
 
 
-    <Headers TitleScreen='هادینو من'
+    <Headers TitleScreen='حساب من'
          ShowHeader={true} 
          navigation={props.navigation}
          drawers={drawer}
@@ -99,13 +99,13 @@ useEffect(()=>{
           Size={hp('10%')}
           Icon={{name: 'user', type: 'font-awesome'}}
           TitleStyle={styles.titleStyles}
-          ContainerStyle={{marginTop:'15%',backgroundColor:'#c2b7ff',borderRadius:30,width:60,height:60,opacity:1}}
+          ContainerStyle={{marginTop:'15%',backgroundColor:'#cc3333',borderRadius:30,width:60,height:60,opacity:1}}
           ButtonStyle={styles.buttonStyle}
           ButtonOperator={()=>{props.navigation.navigate('Accounts')}}
           />
           <AccountChoose Title={'تنظیمات'}  
   
-           ContainerStyle={{marginTop:'15%',backgroundColor:'#c2b7ff',borderRadius:30,width:60,height:60,opacity:1}}
+           ContainerStyle={{marginTop:'15%',backgroundColor:'#cc3333',borderRadius:30,width:60,height:60,opacity:1}}
           Size={hp('12%')}
           Icon={{name: 'setting', type: 'antdesign'}}
           TitleStyle={styles.titleStyles}
@@ -119,8 +119,8 @@ useEffect(()=>{
 <View style= {styles.ScreenView}>
         
 
-<AccountChoose Title={'درباره هادینو'}  
- ContainerStyle={{marginTop:'15%',backgroundColor:'#c2b7ff',borderRadius:30,width:60,height:60,opacity:1}}
+<AccountChoose Title={'درباره پارک سگال'}  
+ ContainerStyle={{marginTop:'15%',backgroundColor:'#cc3333',borderRadius:30,width:60,height:60,opacity:1}}
  Size={hp('10%')}
  Icon={{name: 'info', type: 'font-awesome'}}
  TitleStyle={styles.titleStyles}
@@ -129,7 +129,7 @@ useEffect(()=>{
 />
 
 <AccountChoose Title={'راهنمایی و شرایط'} AvatarTitle={''}
- ContainerStyle={{marginTop:'15%',backgroundColor:'#c2b7ff',borderRadius:30,width:60,height:60,opacity:1}}
+ ContainerStyle={{marginTop:'15%',backgroundColor:'#cc3333',borderRadius:30,width:60,height:60,opacity:1}}
  Size={hp('12%')}
  Icon={{name: 'question', type: 'font-awesome'}}
  TitleStyle={styles.titleStyles}
@@ -139,15 +139,15 @@ useEffect(()=>{
 
 </View>
 
-<AccountChoose Title={'فرصت همکاری'} AvatarTitle={''}
+{/* <AccountChoose Title={'فرصت همکاری'} AvatarTitle={''}
           Size={hp('9%')}
           Icon={{name: 'handshake', type: 'font-awesome-5'}}
           TitleStyle={styles.titleStyles}
-          ContainerStyle={{marginTop:'5%',backgroundColor:'#c2b7ff',borderRadius:30,width:60,height:60,opacity:1}}
+          ContainerStyle={{marginTop:'5%',backgroundColor:'#cc3333',borderRadius:30,width:60,height:60,opacity:1}}
           ButtonStyle={{width:wp(94),height:hp('22%'),
-          backgroundColor:'#5743C1',borderRadius:10,marginTop:10,alignItems:'flex-end',marginHorizontal:wp(3)}}
+          backgroundColor:'#cc3333',borderRadius:10,marginTop:10,alignItems:'flex-end',marginHorizontal:wp(3)}}
           ButtonOperator={()=>{props.navigation.navigate('Cooperation')}}
-          />
+          /> */}
 
 </ScrollView>
 </Drawer>
@@ -235,7 +235,7 @@ PopularListStyle:
   },
 buttonStyle:
   {width:'49%',height:hp('22%'),
-backgroundColor:'#5743C1',borderRadius:10,alignItems:'flex-end'}
+backgroundColor:'#cc3333',borderRadius:10,alignItems:'flex-end'}
 
   
 });

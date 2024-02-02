@@ -117,7 +117,7 @@ export default class MainProfileScreen extends Component {
       
         this.state.showIndicator == false ? 
 <View style={styles.container}>
-{/* <TouchableOpacity style={{position:'absolute',left:5,top:10,width:50,height:40,backgroundColor:'#0ab076',borderRadius:10,justifyContent:'center'}}
+{/* <TouchableOpacity style={{position:'absolute',left:5,top:10,width:50,height:40,backgroundColor:'#cc3333',borderRadius:10,justifyContent:'center'}}
 onPress={()=>{this.props.navigation.navigate('Login')}}
 >
         <Text style={{textAlign:'center',fontFamily:'Digikala',fontSize:wp(4),color:'white'}}>ورود</Text>

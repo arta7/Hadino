@@ -15,8 +15,8 @@ export default  AboutItem=(props)=> {
   const [index, setIndex] = useState(1);
  
   const [routes] = useState([
-    { key: 'LicenseItem', title: 'مجوزها'},
-    { key: 'Introduction', title: 'معرفی هادینو' },
+    { key: 'LicenseItem', title: 'مجوزات'},
+    { key: 'Introduction', title: 'معرفی پارک سگال' },
    
   ]);
 
@@ -35,11 +35,11 @@ export default  AboutItem=(props)=> {
     <TabBar
       {...props}
       renderLabel={({route, color}) => (
-        <Text style={{ color: '#0ab076',fontSize:wp(4),fontWeight:'400',fontFamily:'Digikala'}}>
+        <Text style={{ color: '#cc3333',fontSize:wp(4),fontWeight:'400',fontFamily:'Digikala'}}>
           {route.title}
         </Text>
       )}
-      indicatorStyle={{ backgroundColor: '#0ab076' }}
+      indicatorStyle={{ backgroundColor: '#cc3333' }}
       style={{ backgroundColor: 'white' }}
     />
   )

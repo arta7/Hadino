@@ -142,7 +142,7 @@ useEffect(()=>{
           style={{borderRadius:10,backgroundColor:'white',elevation:3,padding:10}}
           >
 
-            <Text style={{fontSize:wp('4%'),color:'#0ab076',fontFamily:'Digikala'}}>جستجو</Text>
+            <Text style={{fontSize:wp('4%'),color:'#cc3333',fontFamily:'Digikala'}}>جستجو</Text>
             </TouchableOpacity>
 
        </View>
@@ -162,7 +162,7 @@ useEffect(()=>{
             }}
              style={{}}
             thumbColor= {'white'}
-            trackColor ={{ false: "#0ab076", true: "gray" }}
+            trackColor ={{ false: "#cc3333", true: "gray" }}
            /> 
            </View>
          </View>
@@ -200,7 +200,7 @@ PressItem={()=>{
             }}
              style={{}}
             thumbColor= {'white'}
-            trackColor ={{ false: "#0ab076", true: "gray" }}
+            trackColor ={{ false: "#cc3333", true: "gray" }}
            /> 
            </View>
          </View>
@@ -218,7 +218,7 @@ PressItem={()=>{
             }}
              style={{}}
             thumbColor= {'white'}
-            trackColor ={{ false: "#0ab076", true: "gray" }}
+            trackColor ={{ false: "#cc3333", true: "gray" }}
            /> 
            </View>
          </View>
@@ -266,7 +266,7 @@ PressItem={()=>{
             onPress={()=>{
               setshowAddLan(true)
             }}>
-               <Text style={{fontFamily:'Digikala',textAlign:'center',color:'#0ab076',fontSize:wp('4%')}}>افزودن</Text>
+               <Text style={{fontFamily:'Digikala',textAlign:'center',color:'#cc3333',fontSize:wp('4%')}}>افزودن</Text>
             </TouchableOpacity>
     </View>
   </View>

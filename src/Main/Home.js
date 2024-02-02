@@ -130,7 +130,7 @@ useEffect(()=>{
 
    
 
-   <View style={{width:wp('90%'),marginHorizontal:wp('5%'),marginBottom:5,flexDirection:'row-reverse',justifyContent:'space-between',marginTop:10}}>
+   <View style={{width:wp('90%'),marginHorizontal:wp('5%'),marginBottom:5,flexDirection:'row',justifyContent:'space-between',marginTop:10}}>
     <Text style={{color:'black',fontSize:wp('4%'),fontFamily:'Digikala'}}>خدمات</Text>
     <View>
 
@@ -141,34 +141,34 @@ useEffect(()=>{
 
         <View style= {styles.ScreenView}>
         
-          <ScreenChoose Title={'مالیاتچی'} AvatarTitle={''}
-          SubTitle='مشاوره و خدمات مالیاتی'
+          <ScreenChoose Title={'شتابدهنده'} AvatarTitle={''}
+          SubTitle='مشاوره و خدمات '
           Size={hp('7%')}
           SubTitleStyle={{color:'#535353',fontSize:wp('2.2%'),textAlign:'center',backgroundColor:'transparent'}}
-           Icon={require('./../Images/Maliatchie.png')}
+          //  Icon={require('./../Images/Maliatchie.png')}
           TitleStyle={styles.titleStyles}
           ContainerStyle={{marginTop:4,backgroundColor:'transparent'}}
           ButtonStyle={styles.buttonStyle}
           
           ButtonOperator={()=>{props.navigation.navigate('Search')}}
           />
-          <ScreenChoose Title={'بیمه ایم'}  
-          SubTitle='مشاوره بیمه و تامین اجتماعی'
+          <ScreenChoose Title={'کسب و کار'}  
+          SubTitle='مشاوره کسب و کار'
           ContainerStyle={{marginTop:6,backgroundColor:'transparent'}}
           Size={hp('6%')}
           SubTitleStyle={{color:'#535353',fontSize:wp('2.2%'),textAlign:'center',backgroundColor:'transparent'}}
-          Icon={require('./../Images/bimeim.png')}
+          // Icon={require('./../Images/bimeim.png')}
           TitleStyle={[styles.titleStyles,{marginTop:15}]}
            ButtonOperator={()=>{props.navigation.navigate('Search')}}
            ButtonStyle={styles.buttonStyle}
           />
 
-<ScreenChoose Title={'وکیلان'} AvatarTitle={''}
-SubTitle='مشاوره و خدمات حقوقی'
+<ScreenChoose Title={'استارتاپ'} AvatarTitle={''}
+SubTitle='مشاوره و خدمات استارتاپ'
 Size={hp('7%')}
 ContainerStyle={{marginTop:4,backgroundColor:'transparent'}}
 SubTitleStyle={{color:'#535353',fontSize:wp('2.2%'),textAlign:'center'}}
- Icon={require('./../Images/Vakilan-png.png')}
+//  Icon={require('./../Images/Vakilan-png.png')}
  TitleStyle={styles.titleStyles}
 
 ButtonStyle={styles.buttonStyle}
@@ -228,7 +228,7 @@ SubtitleStyles={{borderRadius:0,width:0,height:0,opacity:0}}
 
 </View> */}
 
-<View style={{width:wp('90%'),marginHorizontal:wp('5%'),marginBottom:5,flexDirection:'row-reverse',justifyContent:'space-between',marginTop:10}}>
+<View style={{width:wp('90%'),marginHorizontal:wp('5%'),marginBottom:5,flexDirection:'row',justifyContent:'space-between',marginTop:10}}>
     <Text style={{color:'black',fontSize:wp('4%'),fontFamily:'Digikala'}}>تازه ها</Text>
     <View>
 
@@ -360,7 +360,7 @@ PopularListStyle:
   },
 buttonStyle:
   {width:'32%',height:hp('18%'),
-backgroundColor:'#2FBC8B',borderRadius:10,alignItems:'center'}
+backgroundColor:'#cc3333',borderRadius:10,alignItems:'center'}
 
   
 });

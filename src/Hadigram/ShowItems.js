@@ -28,7 +28,7 @@ export default ShowItems =(props)=>{
   return (
    
     <TouchableOpacity style={{flexDirection:'row-reverse',width:wp(95),height:hp(30),borderRadius:10
-    ,overflow:'hidden',elevation:3,marginHorizontal:wp(2.5),marginBottom:10}}
+    ,overflow:'hidden',borderWidth:0.5,borderColor:'gray',marginHorizontal:wp(2.5),marginBottom:10}}
     onPress={()=>{props.navigation.navigate('HadigramItem')}}
     >
     <Image  source={require('./../Images/hoghoghi.jpg')}

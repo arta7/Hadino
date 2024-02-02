@@ -15,7 +15,7 @@ import { Icon } from 'react-native-elements';
 export default ImageText =(props)=>{
   return (
    
-    <View style={{flexDirection:'row-reverse',paddingHorizontal:25,alignItems:'center'}}>
+    <View style={{flexDirection:'row',paddingHorizontal:25,alignItems:'center'}}>
     <Image 
     source={props.Source}
     style={{width:40,height:40,borderRadius:20}}

@@ -81,7 +81,7 @@ const Verify =(props)=>{
      style={[styles.ImageView,{position:'absolute'}]} 
     />
      <Image source={require('./../Images/Group.png')}
-      style={[styles.ImageView,{position:'absolute',width:wp('20%'),height:wp('20%')}]} 
+      style={[styles.ImageView,{position:'absolute',width:wp('20%'),height:wp('15%')}]} 
       resizeMode='stretch'
     />
      </View>
@@ -96,7 +96,7 @@ const Verify =(props)=>{
   </View>
     <View>
     <RoundList  ShowIcon={true} Title='لطفا کد پیامک شده را وارد کنید' ButtonStyle =
-     {{flexDirection:'row-reverse',borderWidth:1,borderColor:'transparent',elevation:0.5,height:40,width:wp('80%')
+     {{flexDirection:'row-reverse',borderWidth:0.5,borderColor:'gray',height:40,width:wp('80%')
      ,Opacity:0.6,marginRight:wp('10%'),marginLeft:wp('10%')
      ,justifyContent:'center',alignItems:'center',borderRadius:10}} 
      TitleStyle={{color:'white',fontSize:wp('3%'),textAlign:'right',padding:5,fontFamily:'Digikala'}} ShowIcon={true}
@@ -175,7 +175,7 @@ const Verify =(props)=>{
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,backgroundColor:'#0ab076'
+      flex: 1,backgroundColor:'#cc3333'
     },
     ViewContainer :{
        alignSelf:'center',justifyContent:'center',alignSelf:'center',width:wp('100%')
@@ -188,7 +188,7 @@ const styles = StyleSheet.create({
        alignSelf:'center',justifyContent:'center',alignSelf:'center'
   },
     textStyleSignUp:{
-      textAlign:'center',color:'#0ab076',fontSize:wp('4%'),fontFamily:'Digikala'
+      textAlign:'center',color:'#cc3333',fontSize:wp('4%'),fontFamily:'Digikala'
     },
    ErrorFiled:{
     textAlign:'right',color:'yellow',fontSize:wp('4%'),marginTop:30,fontFamily:'Digikala'

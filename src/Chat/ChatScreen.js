@@ -709,7 +709,7 @@ setshowClose(false)
             marginBottom:10
           },
           right: {
-            backgroundColor: "#0ab076",
+            backgroundColor: "#cc3333",
             elevation: 2,
             padding: 5,
             marginBottom:10
@@ -748,7 +748,7 @@ setshowClose(false)
             height: 30,
             borderRadius: 15,
           }}
-          icon={() => <Icon name="paper-plane" type='entypo' color="#0ab076" size={20} />}
+          icon={() => <Icon name="paper-plane" type='entypo' color="#cc3333" size={20} />}
           onPressActionButton={() => {
             if(messages.length == 0)
             {

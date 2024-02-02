@@ -36,7 +36,7 @@ export default MultiSelector =(props)=>{
                          },props.ViewStyle]}>
                           
                <TouchableOpacity style={{width:50,height:40,borderRadius:10,borderColor:'grey',justifyContent:'center',
-               alignItems:'center',backgroundColor:'#0ab076',borderWidth:0.4,margin:10}}
+               alignItems:'center',backgroundColor:'#cc3333',borderWidth:0.4,margin:10}}
                onPress={props.closeModal}
                >
                   <Text style={{textAlign:'center',color:'white',fontFamily:'Digikala'}}>تایید</Text>
@@ -51,7 +51,7 @@ export default MultiSelector =(props)=>{
                 <TouchableOpacity 
                 style={{ alignSelf:"center",width:'80%',height:50,
                 borderRadius:10,backgroundColor:
-                props.selectedItem.filter(a=>a.id == item.id).length>0 ? '#0ab076':'transparent',
+                props.selectedItem.filter(a=>a.id == item.id).length>0 ? '#cc3333':'transparent',
                 borderColor:'gray',borderWidth:0.4,margin:10,justifyContent:'center',marginHorizontal:'10%'}} 
                 onPress={()=>{
                   var con=false;

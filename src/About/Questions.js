@@ -16,12 +16,12 @@ import { widthPercentageToDP } from 'react-native-responsive-screen';
 
 const SECTIONS = [
   {
-    title: 'شرایط ایجاد حساب کاربری در هادینو چیست؟',
+    title: 'شرایط ایجاد حساب کاربری در پارک سگال چیست؟',
     content: 'Lorem ipsum...',
     index:0
   },
   {
-    title: 'نحوه ایجاد درخواست خدمات در هادینو چگونه است؟',
+    title: 'نحوه ایجاد درخواست خدمات در پارک سگال چگونه است؟',
     content: 'Lorem ipsum...',
     index:1
   },
@@ -56,9 +56,9 @@ export default class Questions extends Component {
       <View style={styles.header}>
         {
           !IsActive  ?
-          <Icon name='keyboard-arrow-down' color='#0ab076'/>
+          <Icon name='keyboard-arrow-down' color='#cc3333'/>
           :
-          <Icon name='keyboard-arrow-up' color='#0ab076'/>
+          <Icon name='keyboard-arrow-up' color='#cc3333'/>
           
         }
         <Text style={styles.headerText}>{section.title}</Text>
@@ -71,7 +71,7 @@ export default class Questions extends Component {
   _renderContent = (section) => {
     return (
       <View style={styles.content}>
-        <Text style={{fontFamily:'Digikala'}}>{section.content}</Text>
+        <Text style={{fontFamily:'Digikala',color:'black'}}>{section.content}</Text>
       </View>
     );
   }
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
   headerText: {
     textAlign: 'center',
     fontSize: 16,
-    fontWeight: '500',fontFamily:'Digikala'
+    fontWeight: '500',fontFamily:'Digikala',color:'black'
   },
   content: {
     padding: 20,

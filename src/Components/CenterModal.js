@@ -162,14 +162,14 @@ width:'90%'
                    borderWidth:1,marginBottom:5,borderColor:'grey'
                    ,width:'80%',marginHorizontal:'10%',marginTop:10,
                    backgroundColor:item.id == props.CategorySelectedId 
-                   ? '#0ab076' : 'transparent' 
+                   ? '#cc3333' : 'transparent' 
                   }}
                    onPress={()=>{
                     props.setCategorySelectedId(item.id)
                     props.setCategorySelected(item.title)
                     props.closeModal()
                   }}>  
-                   <Text style={{fontFamily:'Digikala',color: item.id == props.CategorySelectedId ? 'white' : '#0ab076'
+                   <Text style={{fontFamily:'Digikala',color: item.id == props.CategorySelectedId ? 'white' : '#cc3333'
                    ,fontSize:wp('3%')}}>{item.title}</Text>
                      </TouchableOpacity>  
     }

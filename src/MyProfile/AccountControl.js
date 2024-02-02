@@ -228,7 +228,7 @@ export default function AccountControl(props) {
           style={{borderRadius:10,backgroundColor:'white',elevation:3,padding:10}}
           >
 
-            <Text style={{fontSize:wp('4%'),color:'#0ab076',fontFamily:'Digikala'}}>جستجو</Text>
+            <Text style={{fontSize:wp('4%'),color:'#cc3333',fontFamily:'Digikala'}}>جستجو</Text>
             </TouchableOpacity>
 
        </View>
@@ -308,7 +308,7 @@ export default function AccountControl(props) {
             }}
              style={{}}
             thumbColor= {'white'}
-            trackColor ={{ false: "#0ab076", true: "gray" }}
+            trackColor ={{ false: "#cc3333", true: "gray" }}
            /> 
            </View>
          </View>
@@ -355,7 +355,7 @@ PressItem={()=>{
             }}
              style={{}}
             thumbColor= {'white'}
-            trackColor ={{ false: "#0ab076", true: "gray" }}
+            trackColor ={{ false: "#cc3333", true: "gray" }}
            /> 
            </View>
          </View>
@@ -374,7 +374,7 @@ PressItem={()=>{
             onPress={()=>{
               setshowAddLan(true)
             }}>
-               <Text style={{fontFamily:'Digikala',textAlign:'center',color:'#0ab076',fontSize:wp('4%')}}>افزودن</Text>
+               <Text style={{fontFamily:'Digikala',textAlign:'center',color:'#cc3333',fontSize:wp('4%')}}>افزودن</Text>
             </TouchableOpacity>
     </View>
   </View>
@@ -473,7 +473,7 @@ PressItem={()=>{
             renderItem={({item,index})=>
                 <TouchableOpacity 
                 style={{ alignSelf:"flex-start",padding:10,
-                borderRadius:10,backgroundColor:'#0ab076',margin:10}} 
+                borderRadius:10,backgroundColor:'#cc3333',margin:10}} 
                  >
                  <Text style={{fontFamily:'Digikala',textAlign:'right',color:'white',
             fontSize:wp('3%')}}>{item.title}</Text>
@@ -506,7 +506,7 @@ PressItem={()=>{
             renderItem={({item,index})=>
                 <TouchableOpacity 
                 style={{ alignSelf:"flex-start",padding:10,
-                borderRadius:10,backgroundColor:'#0ab076',margin:10}} 
+                borderRadius:10,backgroundColor:'#cc3333',margin:10}} 
                  >
                  <Text style={{fontFamily:'Digikala',textAlign:'right',color:'white',
             fontSize:wp('3%')}}>{item.title}</Text>
@@ -540,7 +540,7 @@ PressItem={()=>{
             renderItem={({item,index})=>
                 <TouchableOpacity 
                 style={{ alignSelf:"flex-start",padding:10,
-                borderRadius:10,backgroundColor:'#0ab076',margin:10}} 
+                borderRadius:10,backgroundColor:'#cc3333',margin:10}} 
                  >
                  <Text style={{fontFamily:'Digikala',textAlign:'right',color:'white',
             fontSize:wp('3%')}}>{item.title}</Text>
@@ -572,9 +572,9 @@ PressItem={()=>{
       <View style={styles.header}>
         {
           !IsActive  ?
-          <Icon name='keyboard-arrow-left' color='#0ab076'/>
+          <Icon name='keyboard-arrow-left' color='#cc3333'/>
           :
-          <Icon name='keyboard-arrow-up' color='#0ab076'/>
+          <Icon name='keyboard-arrow-up' color='#cc3333'/>
           
         }
         <View style={{flexDirection:'row',justifyContent:'center',alignItems:'center'}}>

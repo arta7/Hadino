@@ -121,7 +121,7 @@ const SignUp =(props)=>{
      style={[styles.ImageView,{position:'absolute'}]} 
     />
       <Image source={require('./../Images/Group.png')}
-      style={[styles.ImageView,{position:'absolute',width:wp('20%'),height:wp('20%')}]} 
+     style={[styles.ImageView,{position:'absolute',width:wp('20%'),height:wp('15%')}]} 
       resizeMode='stretch'
     />
      </View>
@@ -203,7 +203,7 @@ const SignUp =(props)=>{
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,backgroundColor:'#0ab076'
+      flex: 1,backgroundColor:'#cc3333'
     },
     ViewContainer :{
        alignSelf:'center',justifyContent:'center',alignSelf:'center',width:wp('100%')
@@ -219,7 +219,7 @@ const styles = StyleSheet.create({
      ,alignSelf:'center',bottom:30
   },
     textStyleSignUp:{
-      textAlign:'center',color:'#0ab076',fontSize:wp('4%'),fontFamily:'Digikala'
+      textAlign:'center',color:'#cc3333',fontSize:wp('4%'),fontFamily:'Digikala'
     },
    ErrorFiled:{
     textAlign:'right',color:'yellow',fontSize:15,marginTop:3,fontFamily:'Digikala'

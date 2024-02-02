@@ -110,7 +110,7 @@ useEffect(()=>{
           TitleStyle={styles.titleStyles}
             ButtonOperator={()=>{}}
             ButtonStyle={{width:'94%',height:hp('22%'),
-            backgroundColor:'#0ab076',borderRadius:10
+            backgroundColor:'#cc3333',borderRadius:10
             ,alignItems:'center',justifyContent:'center',alignSelf:'center',marginRight:'1%'}}
             ContainerStyle={{width:0,height:0}}
           />
@@ -204,7 +204,7 @@ paginationText: {
 },
 buttonStyle:
 {width:'49%',height:hp('22%'),
-backgroundColor:'#0AB076',borderRadius:10
+backgroundColor:'#cc3333',borderRadius:10
 ,alignItems:'center',justifyContent:'center',alignSelf:'center'
 }
 

@@ -138,7 +138,7 @@ const Controls = createBottomTabNavigator({
      <Icon name="person"  size={22}  color={tintColor}/>
     //  <Image source={require('./src/Images/HadinoIcon.png')} style={{width:20,height:20}} resizeMode='cover'  />
      ,
-         tabBarLabel: ({ focused }) => {return  focused ? (<Text style={styles.selectedItemStye}>هادینو من</Text>) : (<Text style={styles.itemStye}>هادینو من</Text>)  },
+         tabBarLabel: ({ focused }) => {return  focused ? (<Text style={styles.selectedItemStye}>حساب من</Text>) : (<Text style={styles.itemStye}>حساب من</Text>)  },
     tabBarOnPress: ({navigation, defaultHandler}) => {
     navigation.replace('Hadino')
     defaultHandler()
@@ -151,7 +151,7 @@ const Controls = createBottomTabNavigator({
    screen : WorkSpace,
    navigationOptions: {
      tabBarIcon : ({tintColor}) => <Icon name="instagram" type='font-awesome-5' size={22}  color={tintColor}/>,
-     tabBarLabel: ({ focused }) => {return  focused ? (<Text style={styles.selectedItemStye}>هادیگرام</Text>) : (<Text style={styles.itemStye}>هادیگرام</Text>)  },
+     tabBarLabel: ({ focused }) => {return  focused ? (<Text style={styles.selectedItemStye}>باشگاه</Text>) : (<Text style={styles.itemStye}>باشگاه</Text>)  },
   tabBarOnPress: ({navigation, defaultHandler}) => {
     // navigation.replace('WorkSpaces')
     defaultHandler()
@@ -177,7 +177,7 @@ Mains1 : {
   screen : WorkSpace,
   navigationOptions: {
     tabBarIcon : ({tintColor}) => <Icon name="search" size={25} type='material' color={tintColor}/>,
-      tabBarLabel: ({ focused }) => {return  focused ? (<Text style={styles.selectedItemStye}>کاویدان</Text>) : (<Text style={styles.itemStye}>کاویدان</Text>)  },
+      tabBarLabel: ({ focused }) => {return  focused ? (<Text style={styles.selectedItemStye}>آکادمی</Text>) : (<Text style={styles.itemStye}>آکادمی</Text>)  },
  tabBarOnPress: ({navigation, defaultHandler}) => {
    // navigation.replace('MyServices')
    defaultHandler()
@@ -203,7 +203,7 @@ showIcon : true,
 showLabel:true,
 shifting:true,
 inactiveTintColor: 'gray',
-activeTintColor: '#0ab076',
+activeTintColor: '#cc3333',
 keyboardHidesTabBar :true,
 activeBackgroundColor:'transparent',
 tabStyle:{justifyContent:'center',
@@ -279,7 +279,7 @@ const styles = StyleSheet.create({
   },
   selectedItemStye:{
     // paddingLeft:'5%',
-   color:'#0ab076',fontSize:wp('3.5%'),marginBottom:12,fontFamily:'Digikala',justifyContent:'center',alignItems:'center'
+   color:'#cc3333',fontSize:wp('3.5%'),marginBottom:12,fontFamily:'Digikala',justifyContent:'center',alignItems:'center'
   }
 });
 

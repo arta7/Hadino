@@ -103,12 +103,12 @@ export default  CounterMain  =(props)=> {
         renderSectionHeader={({section: {title,id,icon,type}}) => (
           <TouchableOpacity style={{width:'100%',height:80,justifyContent:'center',
           alignItems:'center',backgroundColor:id == selectedindex ? 'white' :'#e6e6e6'
-          ,elevation:10,borderRightColor:id == selectedindex ? 'green' :'transparent'
+          ,elevation:10,borderRightColor:id == selectedindex ? '#cc3333' :'transparent'
           ,borderRightWidth:id == selectedindex ? 5:0}}
           onPress={()=>{setselectedindex(id)}}
           >
-            <Icon name={icon} type={type} color={id == selectedindex ? 'green' :'black'} size={wp(5)}/>
-          <Text style={{textAlign:'center',fontSize:wp(4),fontFamily:'Digikala',color:id == selectedindex ? 'green' :'black'}}>{title}</Text>
+            <Icon name={icon} type={type} color={id == selectedindex ? '#cc3333' :'black'} size={wp(5)}/>
+          <Text style={{textAlign:'center',fontSize:wp(4),fontFamily:'Digikala',color:id == selectedindex ? '#cc3333' :'black'}}>{title}</Text>
           </TouchableOpacity>
         )}
       />
@@ -123,7 +123,7 @@ export default  CounterMain  =(props)=> {
           numColumns={2}
           renderItem={({item,index})=>
             <TouchableOpacity style={{width:wp(30),height:hp(20)}}>
-              <View style={{width:'80%',marginHorizontal:'10%',height:'70%',justifyContent:'center',alignItems:'center',borderRadius:10,elevation:2}}>
+              <View style={{width:'80%',marginHorizontal:'10%',height:'70%',justifyContent:'center',alignItems:'center',borderRadius:10,borderWidth:0.5}}>
               <Image  
               source={item.images}
               style={{width:'80%',height:'80%'}}

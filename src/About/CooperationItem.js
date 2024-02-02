@@ -15,7 +15,7 @@ export default  CooperationItem=(props)=> {
   const [index, setIndex] = useState(1);
  
   const [routes] = useState([
-    { key: 'Privacy', title: 'توسعه هادینو' },
+    { key: 'Privacy', title: 'توسعه پارک سگال' },
     { key: 'LicenseItem', title: 'مشاور حرفه ای'},
     
    
@@ -36,11 +36,11 @@ export default  CooperationItem=(props)=> {
     <TabBar
       {...props}
       renderLabel={({route, color}) => (
-        <Text style={{ color: '#0ab076',fontSize:wp(4),fontWeight:'400',fontFamily:'Digikala'}}>
+        <Text style={{ color: '#cc3333',fontSize:wp(4),fontWeight:'400',fontFamily:'Digikala'}}>
           {route.title}
         </Text>
       )}
-      indicatorStyle={{ backgroundColor: '#0ab076' }}
+      indicatorStyle={{ backgroundColor: '#cc3333' }}
       style={{ backgroundColor: 'white' }}
     />
   )

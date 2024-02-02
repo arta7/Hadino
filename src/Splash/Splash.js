@@ -15,7 +15,7 @@ export default function Splash(props) {
   }, [])
 
   return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center',backgroundColor:'gray'}}>
     <Video source={require('./../Images/Splash.mp4')}
                      style={{width:'100%',height:'100%'}}
                              repeat={false}
@@ -23,7 +23,7 @@ export default function Splash(props) {
                              onEnd={()=>{ props.navigation.replace('Controls')  }}
                              useNativeControls={true}
                              muted={false}
-                             resizeMode="cover"   />
+                             resizeMode="contain"   />
    </View>
   );
 }

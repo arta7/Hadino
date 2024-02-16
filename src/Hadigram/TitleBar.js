@@ -16,7 +16,7 @@ export default TitleBar =(props)=>{
   return (
    
     <View style={{width:wp('90%'),marginHorizontal:wp('5%'),marginBottom:5
-    ,flexDirection:'row',justifyContent:'space-between',marginTop:20}}>
+    ,flexDirection:'row-reverse',justifyContent:'space-between',marginTop:20}}>
     <Text style={{color:'black',fontSize:wp('5%'),fontFamily:'Digikala'}}>{props.Title}</Text>
     <View style={{flexDirection:'row',width:'30%'}}>
     <TouchableOpacity style={{marginHorizontal:'5%'}}

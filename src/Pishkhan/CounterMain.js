@@ -119,7 +119,7 @@ export default  CounterMain  =(props)=> {
             { 
           
           <FlatList
-          data={SectionItems.filter(a=>(a.selectedIndex == selectedindex))}
+          data={SectionItems.filter(a=>a.selectedIndex == selectedindex)}
           numColumns={2}
           renderItem={({item,index})=>
             <TouchableOpacity style={{width:wp(30),height:hp(20)}}>
@@ -129,10 +129,11 @@ export default  CounterMain  =(props)=> {
               style={{width:'80%',height:'80%'}}
               resizeMode='stretch'
               />
+               <View style={{width:'80%',marginHorizontal:'10%',height:'25%',marginTop:'1%',justifyContent:'center',alignItems:'center'}}>
+              <Text style={{fontFamily:'Digikala',fontSize:wp(4),color:'black'}}>{item.title}</Text>
               </View>
-              <View style={{width:'80%',marginHorizontal:'10%',height:'25%',marginTop:'5%',justifyContent:'center',alignItems:'center'}}>
-              <Text style={{fontFamily:'Digikala',fontSize:wp(4)}}>{item.title}</Text>
               </View>
+             
               </TouchableOpacity>
           
 

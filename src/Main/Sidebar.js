@@ -111,7 +111,7 @@ useEffect(()=>{
 
 </View>
 
-        <View style={{flexDirection:'row',width:'90%',alignItems:'center',marginTop:'10%',marginHorizontal:'5%'}}>
+        <View style={{flexDirection:'row-reverse',width:'90%',alignItems:'center',marginTop:'10%',marginHorizontal:'5%'}}>
           <View style={{width:'45%'}}>
 
           <Text style={{color:'white',fontSize:wp(3.5),fontFamily:'Digikala'}}>کد عضویت</Text>
@@ -125,7 +125,7 @@ useEffect(()=>{
       </View>
         </View>
 
-        <View style={{flexDirection:'row',width:'100%',alignItems:'center',marginTop:'5%'}}>
+        <View style={{flexDirection:'row-reverse',width:'100%',alignItems:'center',marginTop:'5%'}}>
         <View style={{width:'40%',marginHorizontal:'5%'}}>
 
           <Text style={{color:'white',fontSize:wp(3.5),fontFamily:'Digikala'}}>وضعیت عضویت</Text>

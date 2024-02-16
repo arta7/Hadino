@@ -131,10 +131,11 @@ useEffect(()=>{
    
 
    <View style={{width:wp('90%'),marginHorizontal:wp('5%'),marginBottom:5,flexDirection:'row',justifyContent:'space-between',marginTop:10}}>
-    <Text style={{color:'black',fontSize:wp('4%'),fontFamily:'Digikala'}}>خدمات</Text>
-    <View>
+   <View>
 
-    </View>
+</View>
+    <Text style={{color:'black',fontSize:wp('4%'),fontFamily:'Digikala'}}>خدمات</Text>
+   
   
   </View>
          
@@ -152,8 +153,8 @@ useEffect(()=>{
           
           ButtonOperator={()=>{props.navigation.navigate('Search')}}
           />
-          <ScreenChoose Title={'کسب و کار'}  
-          SubTitle='مشاوره کسب و کار'
+          <ScreenChoose Title={'تامین مالی '}  
+          SubTitle='تامین مالی '
           ContainerStyle={{marginTop:6,backgroundColor:'transparent'}}
           Size={hp('6%')}
           SubTitleStyle={{color:'#535353',fontSize:wp('2.2%'),textAlign:'center',backgroundColor:'transparent'}}
@@ -163,8 +164,8 @@ useEffect(()=>{
            ButtonStyle={styles.buttonStyle}
           />
 
-<ScreenChoose Title={'استارتاپ'} AvatarTitle={''}
-SubTitle='مشاوره و خدمات استارتاپ'
+<ScreenChoose Title={'تجاری سازی'} AvatarTitle={''}
+SubTitle='تجاری سازی'
 Size={hp('7%')}
 ContainerStyle={{marginTop:4,backgroundColor:'transparent'}}
 SubTitleStyle={{color:'#535353',fontSize:wp('2.2%'),textAlign:'center'}}
@@ -229,10 +230,11 @@ SubtitleStyles={{borderRadius:0,width:0,height:0,opacity:0}}
 </View> */}
 
 <View style={{width:wp('90%'),marginHorizontal:wp('5%'),marginBottom:5,flexDirection:'row',justifyContent:'space-between',marginTop:10}}>
-    <Text style={{color:'black',fontSize:wp('4%'),fontFamily:'Digikala'}}>تازه ها</Text>
-    <View>
+<View>
 
-    </View>
+</View>
+    <Text style={{color:'black',fontSize:wp('4%'),fontFamily:'Digikala'}}>تازه ها</Text>
+   
   
   </View>
 

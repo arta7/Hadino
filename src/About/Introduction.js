@@ -23,8 +23,12 @@ export default  AboutItem=(props)=> {
      <View style={{flex:1,marginTop:20}}>
 
 <Image source={require('./../Images/Group.png')}
-     style={[styles.ImageView,{justifyContent:'center',alignItems:'center',width:wp('20%'),height:wp('15%')}]} 
-     resizeMode='stretch'
+     style={[styles.ImageView,{
+     height:140, 
+     width:240
+    //  ,width:wp('20%'),height:wp('15%')
+    }]} 
+     resizeMode='cover'
     />
 
 <View style={{width:wp('95%'),marginHorizontal:wp('2.5%'),marginBottom:5

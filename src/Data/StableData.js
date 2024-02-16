@@ -73,38 +73,38 @@ const ServiceType =[{id:1,Title:'چت',iconName:'comment',iconType:'font-awesome
 const SectionList1=[
     {
         id:0,
-    title: "پوشه کار",
-    icon:'folder-open',
-    type:'font-awesome',
-    data: []
-    },
-    {
-        id:1,
         title: "میز خدمت",
         icon:'work',
         type:'materialicon',
         data: []
     },
     {
-        id:2,
+        id:1,
         title: "شتابدهنده",
         icon:'school',
         type:'materialicon',
         data: []
     },
     {
-        id:3,
+        id:2,
         title: "تامین مالی",
         icon:'cc-diners-club',
         type:'font-awesome',
         data: []
     },
     {
-        id:4,
+        id:3,
         title: "تجاری سازی",
         icon:'cc-diners-club',
         type:'font-awesome',
         data: []
+    },
+    {
+    id:4,
+    title: "صندوق سگال",
+    icon:'folder-open',
+    type:'font-awesome',
+    data: []
     },
     {
         id:5,
@@ -124,18 +124,23 @@ const SectionList1=[
 ]
 
 const SectionItems =[
-{title:'درخواست ها',images:require('./../Images/tax.png'),selectedIndex:0,selectedItem:0},
-{title:'قراردادها',images:require('./../Images/tax.png'),selectedIndex:0,selectedItem:0},
-{title:'1 نمونه ',images:require('./../Images/tax.png'),selectedIndex:1,selectedItem:-1},
-{title:'2 نمونه ',images:require('./../Images/tax.png'),selectedIndex:1,selectedItem:-1},
-{title:'3 نمونه ',images:require('./../Images/tax.png'),selectedIndex:1,selectedItem:-1},
-{title:'1 نمونه ',images:require('./../Images/tax.png'),selectedIndex:2,selectedItem:-1},
-{title:'2 نمونه ',images:require('./../Images/tax.png'),selectedIndex:2,selectedItem:-1},
-{title:'5 نمونه ',images:require('./../Images/tax.png'),selectedIndex:3,selectedItem:-1},
-{title:'6 نمونه ',images:require('./../Images/tax.png'),selectedIndex:3,selectedItem:-1},
-{title:'5 نمونه ',images:require('./../Images/tax.png'),selectedIndex:4,selectedItem:-1},
-{title:'6 نمونه ',images:require('./../Images/tax.png'),selectedIndex:5,selectedItem:-1},
-{title:'10 نمونه ',images:require('./../Images/tax.png'),selectedIndex:6,selectedItem:-1}
+{title:'پیام ها',images:require('./../Images/tax.png'),selectedIndex:0,selectedItem:-1},
+{title:'درخواست ها',images:require('./../Images/tax.png'),selectedIndex:0,selectedItem:-1},
+{title:' قرارداد ها',images:require('./../Images/tax.png'),selectedIndex:0,selectedItem:-1},
+{title:'مشاوره ها',images:require('./../Images/tax.png'),selectedIndex:0,selectedItem:-1},
+{title:'ثبت نوآوری',images:require('./../Images/tax.png'),selectedIndex:1,selectedItem:-1},
+{title:'چالش فناوری',images:require('./../Images/tax.png'),selectedIndex:1,selectedItem:-1},
+{title:'سرمایه فرشته ',images:require('./../Images/tax.png'),selectedIndex:2,selectedItem:-1},
+{title:'بازار سرمایه',images:require('./../Images/tax.png'),selectedIndex:2,selectedItem:-1},
+{title:'ساخت داخل',images:require('./../Images/tax.png'),selectedIndex:3,selectedItem:-1},
+{title:'صادرات فناوری',images:require('./../Images/tax.png'),selectedIndex:3,selectedItem:-1},
+{title:' سبد دارایی ها',images:require('./../Images/tax.png'),selectedIndex:4,selectedItem:-1},
+{title:'سرمایه گذاری',images:require('./../Images/tax.png'),selectedIndex:4,selectedItem:-1},
+{title:'مربی نوآوری',images:require('./../Images/tax.png'),selectedIndex:5,selectedItem:-1},
+{title:'شبکه نوآوری',images:require('./../Images/tax.png'),selectedIndex:5,selectedItem:-1},
+{title:'مجله نوآوری',images:require('./../Images/tax.png'),selectedIndex:5,selectedItem:-1},
+{title:'دوره آموزش',images:require('./../Images/tax.png'),selectedIndex:6,selectedItem:-1},
+{title:'وبینارها',images:require('./../Images/tax.png'),selectedIndex:6,selectedItem:-1}
 
 ]
 

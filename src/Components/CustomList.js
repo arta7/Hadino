@@ -7,7 +7,7 @@ import {widthPercentageToDP as wp, heightPercentageToDP as hp}  from 'react-nati
 
 export default  CustomList  =(props)=> {
    return(
-    <View style={{flex:1,flexDirection:'row'}}>
+    <View style={{flex:1,flexDirection:'row-reverse'}}>
     
      <View style={{flex:0.30,elevation:1,backgroundColor:'#f5f5f5'}}>
      <ScrollView>

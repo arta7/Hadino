@@ -61,7 +61,7 @@ onPress={()=>{props.navigation.goBack()}}
   
 :
 <View style={{height:hp('12%'),backgroundColor:'white',overflow:'hidden'}}>
-<View style={{ flexDirection:props.showRightIcon ? 'row' : 'row-reverse',justifyContent:'space-between',height:'40%',width:wp('100%')}}>
+<View style={{ flexDirection:!props.showRightIcon ? 'row' : 'row-reverse',justifyContent:'space-between',height:'40%',width:wp('100%')}}>
 {props.showRightIcon  ? 
          <TouchableOpacity style={{margin:5}}
          // onPress={()=>{ props.navigation.push('Search')}}

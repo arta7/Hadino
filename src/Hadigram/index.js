@@ -116,7 +116,7 @@ export default Hadigram =(props)=>{
          data={data1}
          horizontal={true}
          showsHorizontalScrollIndicator={true}
-         contentContainerStyle={{flexDirection:'row-reverse'}}
+         contentContainerStyle={{flexDirection:'row'}}
          renderItem={({item,index}) =>  
          <RoundList ShowIcon={false}    
          Title={item.Title}

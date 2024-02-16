@@ -137,8 +137,11 @@ const Login =(props)=>{
      style={[styles.ImageView,{position:'absolute'}]} 
     />
      <Image source={require('./../Images/Group.png')}
-     style={[styles.ImageView,{position:'absolute',width:wp('20%'),height:wp('15%')}]} 
-     resizeMode='stretch'
+     style={[styles.ImageView,{position:'absolute',
+    height:70, 
+    width:120
+    }]} 
+     resizeMode='cover'
     />
      </View>
 

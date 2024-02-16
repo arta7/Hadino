@@ -58,6 +58,7 @@ export default HadigramItem =(props)=>{
     <MessageBoxes />
 
      <View style={{width:wp(100),height:hp(30)}}>
+    
       <ImageText Source={require('./../Images/Vakilan-png.png')} Title ='کاربر1'/>
       <Body BodyString={BodyString} />
       <ImageText Source={require('./../Images/Maliatchie.png')} Title ='1شرکت نرم افزاری'/>
